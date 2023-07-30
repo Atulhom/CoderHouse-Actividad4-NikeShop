@@ -1,0 +1,36 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: #f5f5f5;
+  border: 1px solid #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.parag {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  color: #333;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  text-decoration: underline;
+}
+
+.other-text {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+  max-width: 80%;
+}
+
+.medal {
+  height: 160px;
+  width: 60px;
+  position: relative;
+  left: -235px;
+  bottom: -79px;
+}

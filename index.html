@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/png" href="./imgs/logo-nike.png" />
+    <title>Nike</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content"></div>
+      <nav class="container-nav-class">
+        <img class="logo" src="./imgs/logo-nike.png" alt="logo" />
+        <ul>
+          <li><a href="#top" id="btnScrollToTop">TOP</a></li>
+          <li><a href="#products" id="btnScrollToBottom">PRODUCTS</a></li>
+          <li>
+            <a href="#cart" class="cart-container" id="cart-btn">CART</a>
+          </li>
+          <li><a id="contactBtn">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="contactModal" class="modal">
+      <div class="modal-content">
+        <span class="close" id="closeModalBtn">&times;</span>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" required />
+
+          <label for="email">Em@il:</label>
+          <input type="email" id="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" rows="4" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+
+    <div>
+      <li>
+        <a href="https://api.whatsapp.com/send?phone=635556145" target="_blank">
+          <img src="./imgs/whatsicon.png" class="whats" alt="WhatsApp Icon"
+        /></a>
+      </li>
+    </div>
+
+    <div class="slider-container">
+      <div class="slider">
+        <div id="slide1" class="slide active"></div>
+        <div id="slide2" class="slide"></div>
+        <div id="slide3" class="slide"></div>
+        <div id="slide4" class="slide"></div>
+      </div>
+      <div class="slider-cover">
+        <h2 class="justdoit">Just do It!</h2>
+      </div>
+    </div>
+
+    <div class="about-container">
+      <img src="./imgs/medal.png" alt="medal" class="medal" />
+      <p class="parag">Unleash Your True Potential with Nike!</p>
+      <p class="other-text">
+        "Step into greatness with Nike - where every stride becomes a journey to
+        conquer new heights!"
+      </p>
+    </div>
+
+    <main>
+      <div class="offer-container" id="product-list">
+        <!-- Generar recuadros de ofertas dinámicamente usando JavaScript -->
+      </div>
+
+      <div id="cart-modal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModalCart()">&times;</span>
+          <p id="cartContent"></p>
+          <p id="cartTotal"></p>
+          <button id="btnstylepay"
+            class="btnstylepay"
+            onclick="payProducts()"
+            >Paypal</a
+          >
+          <button
+            id="btnstyleclean"
+            class="btnstyleclean"
+            onclick="clearCart()"
+          >
+            Clean products
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="content-footer">
+      <p class="footer-style">Joan Guasch Duran, CoderHouse</p>
+    </footer>
+
+    <script src="./js/scroll.js"></script>
+    <script src="./js/offers.js"></script>
+    <script src="./js/slide.js"></script>
+    <script src="./js/cart-modal.js"></script>
+    <script src="./js/contact.js"></script>
+  </body>
+</html>

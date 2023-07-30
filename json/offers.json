@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "DOWNSHIFTER 6",
+    "img": "./imgs/offer1.webp",
+    "description": "Nike Performance",
+    "price": 29.99
+  },
+  {
+    "id": "2",
+    "name": "DOWNSHIFTER 8",
+    "img": "./imgs/offer2.webp",
+    "description": "Nike Performance",
+    "price": 39.99
+  },
+  {
+    "id": "3",
+    "name": "DOWNSHIFTER 12",
+    "img": "./imgs/offer3.webp",
+    "description": "Nike Performance",
+    "price": 49.99
+  }
+]

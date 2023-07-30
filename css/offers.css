@@ -1,0 +1,33 @@
+.offer-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.offer-box {
+  height: 60vh;
+  background-color: #f5f5f5;
+  margin-top: 15px;
+  border-radius: 15px;
+  box-shadow: 15px 14px 8px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  margin: 20px 20px 80px;
+
+}
+
+.offer-img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.offer-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.offer-description {
+  margin-top: 10px;
+  color: #666;
+}

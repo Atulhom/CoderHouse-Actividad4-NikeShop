@@ -1,0 +1,11 @@
+.content-footer {
+  padding: 10px;
+  height: 40px;
+  background-color: rgb(0, 0, 0);
+}
+
+.footer-style {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
